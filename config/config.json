@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graphapi-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphapi/GraphapiWebPart.js",
+          "manifest": "./src/webparts/graphapi/GraphapiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphapiWebPartStrings": "lib/webparts/graphapi/loc/{locale}.js"
+  }
+}

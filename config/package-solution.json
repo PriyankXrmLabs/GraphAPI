@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-ap-itest-client-side-solution",
+    "id": "38a64e02-b644-493e-ac4c-36ea49d0aac0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Read"
+      }
+
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "GraphAPItest description"
+      },
+      "longDescription": {
+        "default": "GraphAPItest description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "graph-ap-itest Feature",
+        "description": "The feature that activates elements of the graph-ap-itest solution.",
+        "id": "5092310c-f505-4bff-99e4-f1e205507b45",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graphapitest.sppkg"
+  }
+}
